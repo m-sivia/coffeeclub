@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace UAlbertaISTCoffeeClub\Jobs;
 
 use Illuminate\Bus\Queueable;
 

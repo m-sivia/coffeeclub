@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace UAlbertaISTCoffeeClub\Events;
 
 abstract class Event
 {
