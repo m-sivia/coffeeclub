@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define(UAlbertaISTCoffeeClub\User::class, function (Faker\Generator $faker) {
+$factory->define(UAlberta\IST\CoffeeClub\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->email,

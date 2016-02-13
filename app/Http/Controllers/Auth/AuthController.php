@@ -1,10 +1,10 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Http\Controllers\Auth;
+namespace UAlberta\IST\CoffeeClub\Http\Controllers\Auth;
 
-use UAlbertaISTCoffeeClub\User;
+use UAlberta\IST\CoffeeClub\User;
 use Validator;
-use UAlbertaISTCoffeeClub\Http\Controllers\Controller;
+use UAlberta\IST\CoffeeClub\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
@@ -37,13 +37,13 @@ class AuthController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest', ['except' => 'logout']);
+        $this->middleware('guest', [ 'except' => 'logout' ]);
     }
 
     /**
      * Get a validator for an incoming registration request.
      *
-     * @param  array  $data
+     * @param  array $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
     protected function validator(array $data)
@@ -58,7 +58,7 @@ class AuthController extends Controller
     /**
      * Create a new user instance after a valid registration.
      *
-     * @param  array  $data
+     * @param  array $data
      * @return User
      */
     protected function create(array $data)

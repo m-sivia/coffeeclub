@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Http;
+namespace UAlberta\IST\CoffeeClub\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -24,11 +24,11 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \UAlbertaISTCoffeeClub\Http\Middleware\EncryptCookies::class,
+            \UAlberta\IST\CoffeeClub\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \UAlbertaISTCoffeeClub\Http\Middleware\VerifyCsrfToken::class,
+            \UAlberta\IST\CoffeeClub\Http\Middleware\VerifyCsrfToken::class,
         ],
 
         'api' => [
@@ -44,9 +44,9 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \UAlbertaISTCoffeeClub\Http\Middleware\Authenticate::class,
+        'auth' => \UAlberta\IST\CoffeeClub\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'guest' => \UAlbertaISTCoffeeClub\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \UAlberta\IST\CoffeeClub\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
 }

@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model'  => UAlbertaISTCoffeeClub\User::class,
+        'model'  => UAlberta\IST\CoffeeClub\User::class,
         'key'    => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

@@ -1,8 +1,8 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Http\Controllers\Auth;
+namespace UAlberta\IST\CoffeeClub\Http\Controllers\Auth;
 
-use UAlbertaISTCoffeeClub\Http\Controllers\Controller;
+use UAlberta\IST\CoffeeClub\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

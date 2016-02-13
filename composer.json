@@ -20,7 +20,7 @@
             "database"
         ],
         "psr-4": {
-            "UAlbertaISTCoffeeClub\\": "app/"
+            "UAlberta\IST\CoffeeClub\\": "app/"
         }
     },
     "autoload-dev": {

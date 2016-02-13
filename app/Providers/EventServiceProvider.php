@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Providers;
+namespace UAlberta\IST\CoffeeClub\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'UAlbertaISTCoffeeClub\Events\SomeEvent' => [
-            'UAlbertaISTCoffeeClub\Listeners\EventListener',
+        'UAlberta\IST\CoffeeClub\Events\SomeEvent' => [
+            'UAlberta\IST\CoffeeClub\Listeners\EventListener',
         ],
     ];
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Console\Commands;
+namespace UAlberta\IST\CoffeeClub\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

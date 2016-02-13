@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Http\Requests;
+namespace UAlberta\IST\CoffeeClub\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

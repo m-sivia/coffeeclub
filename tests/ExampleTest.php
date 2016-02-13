@@ -1,4 +1,5 @@
 <?php
+namespace UAlberta\IST\CoffeeClub;
 
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;

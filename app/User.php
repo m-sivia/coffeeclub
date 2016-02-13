@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub;
+namespace UAlberta\IST\CoffeeClub;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

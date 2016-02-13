@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => UAlbertaISTCoffeeClub\User::class,
+            'model' => UAlberta\IST\CoffeeClub\User::class,
         ],
 
         // 'users' => [

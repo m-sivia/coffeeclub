@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Http\Controllers;
+namespace UAlberta\IST\CoffeeClub\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Providers;
+namespace UAlberta\IST\CoffeeClub\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

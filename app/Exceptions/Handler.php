@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Exceptions;
+namespace UAlberta\IST\CoffeeClub\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

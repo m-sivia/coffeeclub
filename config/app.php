@@ -151,10 +151,10 @@ return [
         /*
          * Application Service Providers...
          */
-        UAlbertaISTCoffeeClub\Providers\AppServiceProvider::class,
-        UAlbertaISTCoffeeClub\Providers\AuthServiceProvider::class,
-        UAlbertaISTCoffeeClub\Providers\EventServiceProvider::class,
-        UAlbertaISTCoffeeClub\Providers\RouteServiceProvider::class,
+        UAlberta\IST\CoffeeClub\Providers\AppServiceProvider::class,
+        UAlberta\IST\CoffeeClub\Providers\AuthServiceProvider::class,
+        UAlberta\IST\CoffeeClub\Providers\EventServiceProvider::class,
+        UAlberta\IST\CoffeeClub\Providers\RouteServiceProvider::class,
 
     ],
 

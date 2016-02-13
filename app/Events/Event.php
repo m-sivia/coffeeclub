@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Events;
+namespace UAlberta\IST\CoffeeClub\Events;
 
 abstract class Event
 {

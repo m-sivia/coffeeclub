@@ -1,4 +1,5 @@
 <?php
+namespace UAlberta\IST\CoffeeClub;
 
 class TestCase extends Illuminate\Foundation\Testing\TestCase
 {

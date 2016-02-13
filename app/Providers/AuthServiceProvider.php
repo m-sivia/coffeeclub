@@ -1,6 +1,6 @@
 <?php
 
-namespace UAlbertaISTCoffeeClub\Providers;
+namespace UAlberta\IST\CoffeeClub\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'UAlbertaISTCoffeeClub\Model' => 'UAlbertaISTCoffeeClub\Policies\ModelPolicy',
+        'UAlberta\IST\CoffeeClub\Model' => 'UAlberta\IST\CoffeeClub\Policies\ModelPolicy',
     ];
 
     /**
