@@ -6,7 +6,9 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
+        "laravel/framework": "5.2.*",
+        "depotwarehouse/toolbox": "^3.0",
+        "u-alberta/authentication": "^2.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -20,7 +22,7 @@
             "database"
         ],
         "psr-4": {
-            "UAlberta\IST\CoffeeClub\\": "app/"
+            "UAlberta\\IST\\CoffeeClub\\": "app/"
         }
     },
     "autoload-dev": {

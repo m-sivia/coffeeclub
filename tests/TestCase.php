@@ -1,7 +1,7 @@
 <?php
-namespace UAlberta\IST\CoffeeClub;
+namespace UAlberta\IST\CoffeeClub\TestCase;
 
-class TestCase extends Illuminate\Foundation\Testing\TestCase
+class TestCase extends \Illuminate\Foundation\Testing\TestCase
 {
     /**
      * The base URL to use while testing the application.
